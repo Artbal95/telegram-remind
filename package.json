@@ -1,0 +1,25 @@
+{
+  "name": "telegram-remind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \" cd ./telegram-client && yarn start \" \" cd ./telegram-server && yarn start:dev \"",
+    "client": "cd ./telegram-client && yarn start",
+    "server": "cd ./telegram-server && yarn start:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artbal95/telegram-remind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artbal95/telegram-remind/issues"
+  },
+  "homepage": "https://github.com/Artbal95/telegram-remind#readme",
+  "dependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
